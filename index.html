@@ -398,9 +398,19 @@
         </a>
     </li>
 </ul>
+
 </div>
-</div>
-</div>
+
+
+<form class="form-footer">
+    <label class="label-footer">
+        <span class="newsletter">Zapisz się do newslettera</span>
+        <input class="email-area" type="email" name="email" placeholder="E-mail">
+    </label>
+    <button class="btn-newsletter" type="submit">Zapisz się</button>
+</form>
+
+</div></div>
 </footer>
 
 <div class="backdrop is-hidden" data-modal>
@@ -410,6 +420,48 @@
                 <use href="./images/icons.svg#icon-exit" width=11 height=11></use>
             </svg>
         </button>
+
+        <h2 class="modal__form-header">Zostaw swoje dane w formularzu poniżej</h2>
+        <form action="#" class="modal__form">
+          <label for="" class="modal__form-field">
+            Imie
+            <span class="modal__form-input-wrapper">
+              <input type="text" name="user_name" class="modal__form-input">
+              <span class="modal__form-icon"><svg width=12 height=12>
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg></span>
+            </span>
+          </label>
+          <lable class="modal__form-field">
+            Telefon
+            <span class="modal__form-input-wrapper">
+              <input type="tel" name="user_tel" class="modal__form-input">
+              <span class="modal__form-icon"><svg width=13 height=13>
+                  <use href="./images/icons.svg#icon-Vector1"></use>
+                </svg></span></span>
+          </lable>
+          <lable class="modal__form-field">
+            Email
+            <span class="modal__form-input-wrapper"><input type="email" name="user_mail" class="modal__form-input"><span
+                class="modal__form-icon"><svg width=15 height=12>
+                  <use href="./images/icons.svg#icon-Vector2"></use>
+                </svg></span></span>
+          </label>
+          <label class="modal__form-field">
+            Komentarz
+            <textarea class="modal__form-message" name="user_message" cols="30" rows="10"
+              placeholder="Wprowadź tekst"></textarea>
+          </label>
+          <input type="checkbox" class="modal__form-policy modal__hidden-checkbox" id="user-policy" name="user_policy"
+            value="accept-policy">
+          <label for="user-policy" class="modal__form-policy-text">Oświadczam iż akceptuję <a class="modal__form-link"
+              href="#">Regulamin</a>
+            i <a class="modal__form-link" href="#">Politykę Prywatności.</a></label>
+          <button type="submit" class="modal__form-button">Wyślij</button>
+        </form>
+
+
+
     </div>
 </div>
 

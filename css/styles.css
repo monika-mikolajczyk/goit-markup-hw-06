@@ -836,14 +836,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: #fff;
 }
 .btn-newsletter {
+  font-family: Roboto;
   cursor: pointer;
   border: 0;
-  width: 200px;
-  height: 50px;
+  padding: 10px 47px;
   background: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -968,9 +967,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   flex-direction: column;
 }
 .modal__form-field {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
+  color: #757575;
+  font-size: 12px;
+  font-family: Roboto;
 }
 .modal__form-input-wrapper {
   position: relative;
@@ -979,7 +981,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__form-input {
   width: 100%;
-  height: 40px;
+  padding: 12px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -1013,14 +1015,15 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: underline;
 }
 .modal__form-button {
+  font-family: Roboto;
   display: block;
   margin: 0 auto;
   margin-top: 30px;
-  width: 200px;
-  height: 50px;
+  padding: 10px 76px;
   background-color: var(--secondary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -1029,11 +1032,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 .modal__form-policy-text {
-  padding-left: 14px;
+  text-align: center;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--additional-color);
+  color: #757575;
+  font-family: Roboto;
 }
 .modal__form-policy-text::before {
   content: "";
@@ -1044,7 +1048,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  margin-left: 7px;
 }
 .modal__form-policy:checked + .modal__form-policy-text::before {
   background-image: url(../images/uncheck.svg);
